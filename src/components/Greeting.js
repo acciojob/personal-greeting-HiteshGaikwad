@@ -6,7 +6,7 @@ const Greeting=()=>{
 
     return (
         <div>
-            <label>Enter your name:</label>
+            <p>Enter your name:</p>
             <div>
             <input type="text" onChange={(event)=>setName(event.target.value)}/>
             </div>
