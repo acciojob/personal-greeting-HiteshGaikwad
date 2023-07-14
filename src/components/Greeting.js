@@ -10,7 +10,8 @@ const Greeting=()=>{
             <div>
             <input type="text" onChange={(event)=>setName(event.target.value)}/>
             </div>
-            {name && <h1>Hello {name}</h1>}
+            {name && <p>Hello {name}</p>}
+            
         </div>
     )
 }
